@@ -1,4 +1,4 @@
-fetch('http://localhost:3000/')
+fetch('https://valvaapi.onrender.com')
     .then(response => response.json())
     .then(json => {
         json.forEach(element => {
